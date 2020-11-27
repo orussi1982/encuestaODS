@@ -1,24 +1,405 @@
-This is free and unencumbered software released into the public domain.
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Formulario sin título</h:title>
+    <model>
+      <instance>
+        <data id="build_Encuesta-ODS-ALLCOT_1606456337">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Intro/>
+          <encuestador/>
+          <Intro1/>
+          <nombres/>
+          <apellidos/>
+          <tipodocumento/>
+          <cual1.3/>
+          <numerodocumento/>
+          <edad/>
+          <genero/>
+          <numerotelefono/>
+          <municipiovive/>
+          <vereda/>
+          <habitavereda/>
+          <parentesco/>
+          <etnia/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Intro:label">
+            <value>Encuesta social Proyecto Conservación REDD+ Sur del Meta, Bosques de Paz Sustento de Vida.</value>
+          </text>
+          <text id="/data/Intro:hint">
+            <value>ALLCOT es una empresa privada que desarrolla proyectos de mitigación de cambio climático. En el marco del Proyecto REDD+ Sur del Meta, Bosques de Paz Sustento de Vida, se harán inversiones en acciones sostenibles.  Lo invitamos a diligenciar esta encuesta, a partir de la cual buscamos conocer características, factores y/o necesidades de la región con el objetivo de desarrollar proyectos enfocados a reducir la deforestación. Agradeciendo su total honestidad le agradecemos por el tiempo destinado.   La información entregada por usted y su núcleo familiar será tratada de acuerdo a la política de tratamiento de datos y contará con total confidencialidad. Si usted así lo requiere la encuesta será tratada de manera anónima.   Gracias por su tiempo</value>
+          </text>
+          <text id="/data/encuestador:label">
+            <value>0. Código Encuestador</value>
+          </text>
+          <text id="/data/encuestador:constraintMsg">
+            <value>Por favor digite un número de 4 cifras.</value>
+          </text>
+          <text id="/data/Intro1:label">
+            <value>1.Sección Datos de caracterización</value>
+          </text>
+          <text id="/data/nombres:label">
+            <value>1.1. Nombres</value>
+          </text>
+          <text id="/data/apellidos:label">
+            <value>1.2 Apellidos</value>
+          </text>
+          <text id="/data/tipodocumento:label">
+            <value>1.3 Tipo de documento</value>
+          </text>
+          <text id="/data/tipodocumento:option0">
+            <value>Cédula de Ciudadanía</value>
+          </text>
+          <text id="/data/tipodocumento:option1">
+            <value>Tarjeta de Identidad</value>
+          </text>
+          <text id="/data/tipodocumento:option2">
+            <value>Cédula de Extranjería</value>
+          </text>
+          <text id="/data/tipodocumento:option3">
+            <value>Pasaporte</value>
+          </text>
+          <text id="/data/tipodocumento:option4">
+            <value>Otro</value>
+          </text>
+          <text id="/data/cual1.3:label">
+            <value>1.3 Respuesta ¿cuál?</value>
+          </text>
+          <text id="/data/cual1.3:option0">
+            <value></value>
+          </text>
+          <text id="/data/numerodocumento:label">
+            <value>1.3 Número de documento</value>
+          </text>
+          <text id="/data/edad:label">
+            <value>1.4 Edad</value>
+          </text>
+          <text id="/data/genero:label">
+            <value>1.5 Género</value>
+          </text>
+          <text id="/data/genero:option0">
+            <value>Hombre</value>
+          </text>
+          <text id="/data/genero:option1">
+            <value>Mujer</value>
+          </text>
+          <text id="/data/genero:option2">
+            <value>Otro</value>
+          </text>
+          <text id="/data/numerotelefono:label">
+            <value>1.6 Número telefónico</value>
+          </text>
+          <text id="/data/numerotelefono:constraintMsg">
+            <value>Colocar un valor de 10 digitos</value>
+          </text>
+          <text id="/data/municipiovive:label">
+            <value>1.7 ¿En qué municipio vive?</value>
+          </text>
+          <text id="/data/municipiovive:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/municipiovive:option0">
+            <value>Puerto Concordia</value>
+          </text>
+          <text id="/data/municipiovive:option1">
+            <value>Puerto LLeras</value>
+          </text>
+          <text id="/data/municipiovive:option2">
+            <value>Puerto Rico</value>
+          </text>
+          <text id="/data/municipiovive:option3">
+            <value>Vista Hermosa</value>
+          </text>
+          <text id="/data/vereda:label">
+            <value>1.7 ¿En qué vereda vive?</value>
+          </text>
+          <text id="/data/habitavereda:label">
+            <value>1.8 ¿Hace cuánto vive en dicha vereda?</value>
+          </text>
+          <text id="/data/habitavereda:option0">
+            <value>0-6 meses</value>
+          </text>
+          <text id="/data/habitavereda:option1">
+            <value>6 a 12 meses</value>
+          </text>
+          <text id="/data/habitavereda:option2">
+            <value>De 13 a 24 meses</value>
+          </text>
+          <text id="/data/habitavereda:option3">
+            <value>De 25 a 36 meses</value>
+          </text>
+          <text id="/data/habitavereda:option4">
+            <value>De 37 a 48 meses</value>
+          </text>
+          <text id="/data/habitavereda:option5">
+            <value>Más de 4 años</value>
+          </text>
+          <text id="/data/parentesco:label">
+            <value>1.9. ¿Cuál es su parentesco con el jefe del hogar? </value>
+          </text>
+          <text id="/data/parentesco:option0">
+            <value>1. Jefe del hogar </value>
+          </text>
+          <text id="/data/parentesco:option1">
+            <value>2. Cónyuge</value>
+          </text>
+          <text id="/data/parentesco:option2">
+            <value>3. Hijo/a (Hijastro/a, hijo/a de crianza)</value>
+          </text>
+          <text id="/data/parentesco:option3">
+            <value>4. Progenitor/a</value>
+          </text>
+          <text id="/data/parentesco:option4">
+            <value>5. Hermano/a</value>
+          </text>
+          <text id="/data/parentesco:option5">
+            <value>6. Otros familiares (Primo/a, suegro/a)</value>
+          </text>
+          <text id="/data/parentesco:option6">
+            <value>7.	Sin parentesco</value>
+          </text>
+          <text id="/data/etnia:label">
+            <value>1.10 ¿Se identifica usted con alguna de las siguientes etnias?</value>
+          </text>
+          <text id="/data/etnia:option0">
+            <value>1.Afrodescendientes</value>
+          </text>
+          <text id="/data/etnia:option1">
+            <value>2. Raizal</value>
+          </text>
+          <text id="/data/etnia:option2">
+            <value>3. Palenquera</value>
+          </text>
+          <text id="/data/etnia:option3">
+            <value>4. Indigenas</value>
+          </text>
+          <text id="/data/etnia:option4">
+            <value>5. ROM</value>
+          </text>
+          <text id="/data/etnia:option5">
+            <value>6. Ninguna</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Intro" type="string" readonly="true()"/>
+      <bind nodeset="/data/encuestador" type="int" required="true()" constraint="(. &gt; '0') and (. &lt;= '4')" jr:constraintMsg="jr:itext('/data/encuestador:constraintMsg')"/>
+      <bind nodeset="/data/Intro1" type="string" readonly="true()"/>
+      <bind nodeset="/data/nombres" type="string" required="true()"/>
+      <bind nodeset="/data/apellidos" type="string" required="true()"/>
+      <bind nodeset="/data/tipodocumento" type="select1" required="true()" relevant="(¿Cuál?)"/>
+      <instance id="choices_tipodocumento">
+        <root>
+          <item>
+            <itextId>/data/tipodocumento:option0</itextId>
+            <value>cc</value>
+          </item>
+          <item>
+            <itextId>/data/tipodocumento:option1</itextId>
+            <value>TI</value>
+          </item>
+          <item>
+            <itextId>/data/tipodocumento:option2</itextId>
+            <value>CE</value>
+          </item>
+          <item>
+            <itextId>/data/tipodocumento:option3</itextId>
+            <value>pasaporte</value>
+          </item>
+          <item>
+            <itextId>/data/tipodocumento:option4</itextId>
+            <value>otro</value>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/data/cual1.3" type="select1"/>
+      <instance id="choices_cual1-3">
+        <root>
+          <item>
+            <itextId>/data/cual1.3:option0</itextId>
+            <value>untitled</value>
+            <tipodocumento></tipodocumento>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/data/numerodocumento" type="int" required="true()"/>
+      <bind nodeset="/data/edad" type="int" required="true()"/>
+      <bind nodeset="/data/genero" type="select1" required="true()"/>
+      <bind nodeset="/data/numerotelefono" type="int" required="true()" constraint="(. &gt; '7') and (. &lt; '10')" jr:constraintMsg="jr:itext('/data/numerotelefono:constraintMsg')"/>
+      <bind nodeset="/data/municipiovive" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/municipiovive:requiredMsg')"/>
+      <bind nodeset="/data/vereda" type="string" required="true()"/>
+      <bind nodeset="/data/habitavereda" type="select1" required="true()"/>
+      <bind nodeset="/data/parentesco" type="select1" required="true()"/>
+      <bind nodeset="/data/etnia" type="select1" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/Intro">
+      <label ref="jr:itext('/data/Intro:label')"/>
+      <hint ref="jr:itext('/data/Intro:hint')"/>
+    </input>
+    <input ref="/data/encuestador">
+      <label ref="jr:itext('/data/encuestador:label')"/>
+    </input>
+    <input ref="/data/Intro1">
+      <label ref="jr:itext('/data/Intro1:label')"/>
+    </input>
+    <input ref="/data/nombres">
+      <label ref="jr:itext('/data/nombres:label')"/>
+    </input>
+    <input ref="/data/apellidos">
+      <label ref="jr:itext('/data/apellidos:label')"/>
+    </input>
+    <select1 ref="/data/tipodocumento">
+      <label ref="jr:itext('/data/tipodocumento:label')"/>
+      <itemset nodeset="instance('choices_tipodocumento')/root/item">
+        <value ref="value"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <select1 ref="/data/cual1.3">
+      <label ref="jr:itext('/data/cual1.3:label')"/>
+      <itemset nodeset="instance('choices_cual1-3')/root/item[tipodocumento=/data/tipodocumento]">
+        <value ref="value"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <input ref="/data/numerodocumento">
+      <label ref="jr:itext('/data/numerodocumento:label')"/>
+    </input>
+    <input ref="/data/edad">
+      <label ref="jr:itext('/data/edad:label')"/>
+    </input>
+    <select1 ref="/data/genero">
+      <label ref="jr:itext('/data/genero:label')"/>
+      <item>
+        <label ref="jr:itext('/data/genero:option0')"/>
+        <value>hombre</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/genero:option1')"/>
+        <value>mujer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/genero:option2')"/>
+        <value>otro</value>
+      </item>
+    </select1>
+    <input ref="/data/numerotelefono">
+      <label ref="jr:itext('/data/numerotelefono:label')"/>
+    </input>
+    <select1 ref="/data/municipiovive">
+      <label ref="jr:itext('/data/municipiovive:label')"/>
+      <item>
+        <label ref="jr:itext('/data/municipiovive:option0')"/>
+        <value>municipio1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/municipiovive:option1')"/>
+        <value>municipio2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/municipiovive:option2')"/>
+        <value>municipio3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/municipiovive:option3')"/>
+        <value>municipio4</value>
+      </item>
+    </select1>
+    <input ref="/data/vereda">
+      <label ref="jr:itext('/data/vereda:label')"/>
+    </input>
+    <select1 ref="/data/habitavereda">
+      <label ref="jr:itext('/data/habitavereda:label')"/>
+      <item>
+        <label ref="jr:itext('/data/habitavereda:option0')"/>
+        <value>veredarango1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/habitavereda:option1')"/>
+        <value>veredarango2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/habitavereda:option2')"/>
+        <value>veredarango3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/habitavereda:option3')"/>
+        <value>veredarango4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/habitavereda:option4')"/>
+        <value>veredarango5</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/habitavereda:option5')"/>
+        <value>veredarango6</value>
+      </item>
+    </select1>
+    <select1 ref="/data/parentesco">
+      <label ref="jr:itext('/data/parentesco:label')"/>
+      <item>
+        <label ref="jr:itext('/data/parentesco:option0')"/>
+        <value>parentesco1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/parentesco:option1')"/>
+        <value>parentesco2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/parentesco:option2')"/>
+        <value>parentesco3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/parentesco:option3')"/>
+        <value>parentesco4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/parentesco:option4')"/>
+        <value>parentesco5</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/parentesco:option5')"/>
+        <value>parentesco6</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/parentesco:option6')"/>
+        <value>parentesco7</value>
+      </item>
+    </select1>
+    <select1 ref="/data/etnia">
+      <label ref="jr:itext('/data/etnia:label')"/>
+      <item>
+        <label ref="jr:itext('/data/etnia:option0')"/>
+        <value>etnia1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/etnia:option1')"/>
+        <value>etnia2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/etnia:option2')"/>
+        <value>etnia3</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/etnia:option3')"/>
+        <value>etnia4</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/etnia:option4')"/>
+        <value>etnia5</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/etnia:option5')"/>
+        <value>etnia6</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <https://unlicense.org>
+Download Done
